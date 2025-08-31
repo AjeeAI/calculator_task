@@ -14,7 +14,7 @@ def calculator():
     # Now we let the user choose which operation they want to perform by using an input statement
     while True:
         try:
-            choice = int(input("Enter choice(1, 2, 3 or 4): "))
+            choice = int(input("Enter choice(1, 2, 3, 4, 5, 6 or 0 to exit): "))
             # In the next two lines, we receive values for the two numbers from the user
             if choice == 0:
                 break
